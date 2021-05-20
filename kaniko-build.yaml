@@ -5,6 +5,7 @@ metadata:
 spec:
   source:
     url: https://github.com/imjasonh/shipwright-example
+  dockerfile: Dockerfile
   strategy:
     name: kaniko
     kind: ClusterBuildStrategy
